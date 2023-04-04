@@ -9,4 +9,4 @@ Simple MVC portal step-by-step
 * **03**  added one table database and css
 
 
-For testing and developong your python app register an account on [alwaysdata](https://www.alwaysdata.com/en/register/?from=20a1a3e2)
+For testing and developing your python app register an account on [alwaysdata](https://www.alwaysdata.com/en/register/?from=20a1a3e2)
