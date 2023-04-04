@@ -1,0 +1,6 @@
+body{margin-top:60px;background:#f8f8f8;}
+.fixed{color:#fff;font-weight:210;padding-left:10py;padding-right:10px;z-index:1030;}
+.navbar h4{color:#fff;}
+a{color:#fff;cursor:pointer;}
+a:hover{text-decoration:none;}
+.back{background:#fff;}
