@@ -11,4 +11,4 @@ def lang(l):
 
 class t():
     hu = {'hello':'online filmek és sorozatok birodalma'}
-    en = {'hello':'empire of online films and series'}
+    en = {'hello':'empire of online films and serials'}
