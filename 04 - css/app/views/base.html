@@ -1,0 +1,40 @@
+$def with (page)
+
+<!doctipe html>
+<html>
+    <head>
+        <meta name='viewport'     content='width=device-width, initial-scale=1.0' />
+        <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
+        <meta name='description'  content='' />
+        <meta property='og:title' content='' />
+        <meta property='og:type'  content='video.movie' />
+        <meta property='og:image' content='' />
+
+        <link rel='schema.dcterms' href='https://purl.org/dv/terms/' />
+
+        <meta name='DC.coverage'    content='Hungary' />
+        <meta name='DC.description' content='' />
+        <meta name='DC.format'      content='text/html' />
+        <meta name='DC.identifier'  content='' />
+        <meta name='DC.publisher'   content='' />
+        <meta name='DC.title'       content='' />
+        <meta name='DC.type'        content='Text' />
+
+        <link rel='stylesheet' type='text/css' href='/static/css/bj.css' media='screen' />
+        <link rel='stylesheet' type='text/css' href='/static/css/main.css' media='screen' />
+        <link rel='stylesheet' type='text/css' href='/static/css/imghw.css', media='screen' />
+    </head>
+    <body>
+        <div class='navbar fixed' />
+            <h4 class='pull-left'><font color='yellowgreen'>Part-mozi:</font> $page.title</h4>
+            <ul class='pull-right'>
+                <li>Legújabbak</li>
+                <li>Kategóriák &dtrif;</li>
+                <li>Országok &dtrif;</li>
+            </ul>
+        </div>
+        <div class='container main back' />
+        $:page
+        </div>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+$def with(db_res, title)
+$var title : $title['hello']
+
+<center>
+    <div class= 'row' />
+        <div class='span twelve frame' />
+            $for r in db_res:
+            <figure class='imghvr-flip-diag-1'>
+                <img src='static/img/cover/$r["tmdb"]-poster.jpg'>
+                <figcaption><h3>$r['m_title']</h3>
+            </figure>
+        </div>
+    </div>
+</center>
